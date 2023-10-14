@@ -58,6 +58,6 @@ Route::get('/servicio-ccampo', [App\Http\Controllers\ServiciosController::class,
 Route::get('/servicio-scampo', [App\Http\Controllers\ServiciosController::class,'buscarServiciosincampo']); //muestra el nombre del servico sin su campo
 
 
-
+Route::get('/carrusel', [App\Http\Controllers\CarruselController::class,'index']); //muestra todos los registros
 
 
